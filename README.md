@@ -1,30 +1,24 @@
-# Przychodnia – system obsługi przychodni
+# Przychodnia
 
-Projekt zespołowy z przedmiotu *Projekt* (etap 1: modelowanie procesów, wymagania funkcjonalne i niefunkcjonalne).
+System do obsługi przychodni - projekt na przedmiot Projekt.
 
-## Zespół (grupa 7)
+## Skład grupy
 
-| Osoba | Rola w etapie 1 |
-|---|---|
-| Adrian Mrózek | lider zespołu, kontekst projektu, stos technologiczny, konfiguracja repozytorium |
-| Kamil Rozmus | model procesu biznesowego, architektura systemu |
-| Wiktor Jagosz | wymagania funkcjonalne i niefunkcjonalne, przypadki użycia |
+- Adrian Mrózek (lider) - kontekst projektu, stos technologiczny, repozytorium
+- Kamil Rozmus - model procesu, architektura
+- Wiktor Jagosz - wymagania, przypadki użycia
 
-## Dokumentacja (`docs/`)
+## Etap 1
 
-| Nr | Dokument | Zawartość |
-|---|---|---|
-| a | [01-kontekst-projektu.md](docs/01-kontekst-projektu.md) | wizja systemu, zakres, lista aktorów |
-| b | [02-model-procesu.md](docs/02-model-procesu.md) | diagram aktywności UML z torami (proces obsługi wizyty) |
-| c | [03-wymagania.md](docs/03-wymagania.md) | user stories + kryteria akceptacji + MoSCoW, wymagania niefunkcjonalne |
-| d | [04-przypadki-uzycia.md](docs/04-przypadki-uzycia.md) | diagram przypadków użycia + opis 2 kluczowych przypadków |
-| e | [05-architektura.md](docs/05-architektura.md) | diagram architektury (C4 – kontenery) |
-| f | [06-stos-technologiczny.md](docs/06-stos-technologiczny.md) | technologie z uzasadnieniem |
+Dokumentacja jest w folderze `docs`:
 
-Diagramy znajdują się w `docs/diagramy/` – każdy jako **plik źródłowy** (`.drawio`, otwierany w [diagrams.net](https://app.diagrams.net)) oraz **PNG**.
+- [Kontekst projektu](docs/01-kontekst-projektu.md)
+- [Model procesu biznesowego](docs/02-model-procesu.md)
+- [Wymagania](docs/03-wymagania.md)
+- [Przypadki użycia](docs/04-przypadki-uzycia.md)
+- [Architektura](docs/05-architektura.md)
+- [Stos technologiczny](docs/06-stos-technologiczny.md)
 
-## Zasady pracy w repozytorium
+Diagramy są w `docs/diagramy` w formacie .drawio (można je otworzyć na app.diagrams.net) i jako PNG.
 
-- Gałąź `main` jest chroniona – zmiany wyłącznie przez **Pull Request** z akceptacją co najmniej jednej innej osoby z zespołu.
-- Nazwy gałęzi: `docs/<temat>`, np. `docs/wymagania`.
-- Każdy PR opisuje, co zmienia, i wskazuje recenzenta.
+Zmiany wrzucamy tylko przez pull requesty, każdy PR musi zatwierdzić ktoś inny z grupy.
