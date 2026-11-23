@@ -1,6 +1,6 @@
 # Przychodnia
 
-System do obsługi przychodni - projekt na przedmiot Projekt.
+System do obsługi przychodni 
 
 ## Skład grupy
 
@@ -19,6 +19,6 @@ Dokumentacja jest w folderze `docs`:
 - [Architektura](docs/05-architektura.md)
 - [Stos technologiczny](docs/06-stos-technologiczny.md)
 
-Diagramy są w `docs/diagramy` w formacie .drawio (można je otworzyć na app.diagrams.net) i jako PNG.
+Diagramy są w `docs/diagramy` w formacie .drawio (app.diagrams.net) i jako PNG.
 
 Zmiany wrzucamy tylko przez pull requesty, każdy PR musi zatwierdzić ktoś inny z grupy.
